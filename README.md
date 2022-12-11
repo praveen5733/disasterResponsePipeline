@@ -7,18 +7,20 @@ This project includes a web application where disaster response worker can input
 
 ### Files in the repository
 Folder: app
-| - template
-| |- master.html # main page of web app
-| |- go.html # classification result page of web app
-|- run.py # Flask file that runs app
+1. template
+   - master.html # main page of web app
+   - go.html # classification result page of web app
+2. run.py # Flask file that runs app
+
 Folder:data
-|- disaster_categories.csv # data to process
-|- disaster_messages.csv # data to process
-|- process_data.py
+1. disaster_categories.csv # data to process
+2. disaster_messages.csv # data to process
+3. process_data.py
+
 Folder:models
-|- train_classifier.py
-|- classifier.pkl # saved model
-|- DisasterRrsponse # saved DataBase
+1. train_classifier.py
+2. classifier.pkl # saved model
+
 README.md
 
 ### Instructions:
